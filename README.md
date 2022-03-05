@@ -14,6 +14,6 @@ Every ML project has it's dependencies if those dependencies' version don't matc
 **Dockerfile:** This is just a file where we provide instructions to the docker about how to package a machine learning code and what are the dependencies and in what sequence these steps to be ran. So, consider it as just a file for instructions for code packaging.
 
 **Once the Dockerfile is written then just the following commands for packaging your ML code into a docker image.**
-%% shell
+```
 docker build -t notebook_demo .
-
+```
